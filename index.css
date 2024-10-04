@@ -16,6 +16,7 @@ li {
     border-radius: 10px;
     list-style-type: none;
     background: #319b66d7;
+    box-shadow: 0px 4px 23px 0px #00000040;
 }
 button {
     border-radius: 10px;
@@ -175,14 +176,17 @@ label {
     background: #64cc98d7;
     border-style: hidden;
     box-shadow: inset;
+    box-shadow: 0px 4px 23px 0px #00000040;
 }
 #featured {
     border-radius: 20px;
     background: #226845d7;
+    box-shadow: 0px 4px 23px 0px #00000040;
 }
 #featured .card {
     border-radius: 20px;
     background: #cc7f27;
+    box-shadow: 0px 4px 23px 0px #00000040;
 }
 
 /* Categories Section Styling */
@@ -192,10 +196,20 @@ label {
 #categories {
     border-radius: 20px;
     background: #ca965a;
+    box-shadow: 0px 4px 23px 0px #00000040;
 }
 #resources {
     border-radius: 20px;
     background: #9b611e;
+    box-shadow: 0px 4px 23px 0px #00000040;
+}
+#resources .card {
+    border-radius: 15px;
+    min-height: 30vh;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background: #319b66d7;
+    box-shadow: 0px 4px 23px 0px #00000040;
 }
 
 /* About Section Styling */
@@ -205,10 +219,12 @@ label {
 #mission {
     border-radius: 20px;
     background: #64cc98d7;
+    box-shadow: 0px 4px 23px 0px #00000040;
 }
 #contact {
     border-radius: 20px;
     background: #226845d7;
+    box-shadow: 0px 4px 23px 0px #00000040;
 }
 
 /* Footer Styling */
@@ -226,5 +242,6 @@ label {
     text-shadow: 1px 1px 1px #000000;
 }
 #footer li {
+    box-shadow: none;
     background: none;
 }
